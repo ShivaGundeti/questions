@@ -1,0 +1,118 @@
+main {
+    height: 100vh;
+    padding: 0 10vw;
+   
+}
+
+h1 {
+    font-size: 2.5vw;
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .card {
+    margin-bottom: 20px;
+} */
+h4 {
+    width: 100%;
+    padding: 2vw 3vw;
+}
+/* 
+p {
+   
+} */
+
+.card{
+    display: flex;
+    gap: 4vw;
+    margin: 2vw 0;
+    /* height: 25vh; */
+    /* gap: 12vw; */
+    /* padding: 0.5vw 1vw; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.card-text {
+    display: none;
+}
+
+.content {
+    position: relative;
+    top: -60px;
+    padding: 2vw 3vw 0 3vw;
+    display: block;
+}
+
+
+.ri-subtract-line {
+    display: none;
+    
+
+}
+
+/* 
+.content {
+    position: relative;
+
+} */
+
+.btn {
+    border: 2px solid goldenrod;
+    position: absolute;
+    left: 90%;
+}
+
+.cards {
+    position: relative;
+    top: 30%;
+}
+
+
+@media (max-width: 480px) {
+    
+    main {
+        height: 100vh;
+        padding: 0 8vw;
+    }
+    
+    h1 {
+        font-size: 6vw;
+    }
+
+    .card {
+    display: flex;
+    gap: 15vw;
+    padding: 0.5vw 3vw;
+    align-items: center;
+    font-size: 4vw;
+    position: relative;
+    top: 3px;
+    }
+
+    .btn {
+        border: 2px solid goldenrod;
+        position: absolute;
+    left: 85%;
+    }
+
+    
+    .cards {
+        position: relative;
+        top: 25%;
+    }
+
+    h4 {
+        width: 100%;
+        padding: 2vw 2vw;
+        font-size: 5vw;
+    }
+
+    p {
+        position: relative;
+        top: -30px;
+        
+    }
+}
